@@ -34,7 +34,7 @@
         </v-row>
       </template>
     </v-navigation-drawer>
-    <v-app-bar app color="transparent" flat dark hide-on-scroll>
+    <v-app-bar app color="transparent" flat dark>
       <v-app-bar-nav-icon color="#C4C4C4" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
     </v-app-bar>
 
