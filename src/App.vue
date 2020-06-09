@@ -185,7 +185,7 @@
                 color="#FB5D63"
                 target="_blank"
               >
-                <v-icon>fab fa-github-square</v-icon>
+                <v-icon>fab fa-github</v-icon>
               </v-btn>  
             </h2>
             <p>
