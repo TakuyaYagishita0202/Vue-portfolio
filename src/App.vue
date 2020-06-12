@@ -207,6 +207,8 @@
       </div>
       <div id="works" class="mx-4 mx-md-8 my-4">
         <h1>Works</h1>
+
+        <!-- Quitter -->
         <v-row class="my-12">
           <v-col
             cols="12"
@@ -225,7 +227,7 @@
                 ></v-img>
               </template>
             </v-hover>
-            <v-dialog v-model="dialog.quitter" max-width="1000">
+            <v-dialog v-model="dialog.quitter" :max-width="isMobile ? '100%' : '1000'">
               <v-card class="d-flex justify-center">
                 <video controls width="100%">
                   <source src="./assets/video/quitter.mp4" />
@@ -268,6 +270,8 @@
           </v-col>
         </v-row>
         <v-divider></v-divider>
+
+        <!-- Canda -->
         <v-row class="my-12">
           <v-col
             cols="12"
@@ -286,7 +290,7 @@
                 ></v-img>
               </template>
             </v-hover>
-            <v-dialog v-model="dialog.canda" max-width="1000">
+            <v-dialog v-model="dialog.canda" :max-width="isMobile ? '100%' : '1000'">
               <v-card class="d-flex justify-center">
                 <img width="100%" src="./assets/canda.png" alt="canda" />
               </v-card>
@@ -305,6 +309,8 @@
           </v-col>
         </v-row>
         <v-divider></v-divider>
+
+        <!-- 商品情報自動取得くん -->
         <v-row class="my-12">
           <v-col
             cols="12"
@@ -323,7 +329,7 @@
                 ></v-img>
               </template>
             </v-hover>
-            <v-dialog v-model="dialog.rakuten" max-width="1000">
+            <v-dialog v-model="dialog.rakuten" :max-width="isMobile ? '100%' : '1000'">
               <v-card class="d-flex justify-center">
                 <video controls width="100%">
                   <source src="./assets/video/rakuten.mp4" />
@@ -344,6 +350,8 @@
           </v-col>
         </v-row>
         <v-divider></v-divider>
+
+        <!-- GOOVER -->
         <v-row class="my-12">
           <v-col
             cols="12"
@@ -362,7 +370,7 @@
                 ></v-img>
               </template>
             </v-hover>
-            <v-dialog v-model="dialog.goover" max-width="400">
+            <v-dialog v-model="dialog.goover" :max-width="isMobile ? '100%' : '400'">
               <v-card class="d-flex justify-center">
                 <video controls width="100%">
                   <!-- <video controls :width="isMobile ? '100%' : '50%'"> -->
