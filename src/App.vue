@@ -25,7 +25,10 @@
       <template v-slot:append>
         <v-row justify="center">
           <div class="mb-6">
-            <v-btn icon color="white" :data-cursor-hover="true">
+            <v-btn icon color="white" 
+            href="https://www.wantedly.com/users/136953678"
+            target="_blank"
+            :data-cursor-hover="true">
               <v-icon>icon-wantedly</v-icon>
             </v-btn>
             <v-btn
@@ -502,18 +505,18 @@
             こちらのサイトに関するお問い合わせ、制作者へのご連絡
             <br
               v-if="!isMobile"
-            />につきましてはWantedly、またはフォームをご利用ください。
+            />につきましてはメール、またはこちらのフォームをご利用ください。
           </v-card-subtitle>
           <v-card-text class="py-0">
             <v-list two-line>
               <v-list-item>
                 <v-list-item-avatar>
-                  <v-icon>icon-wantedly</v-icon>
+                  <v-icon>fas fa-envelope</v-icon>
                 </v-list-item-avatar>
                 <v-list-item-content>
-                  <v-list-item-title>Wantedly</v-list-item-title>
+                  <v-list-item-title>Email</v-list-item-title>
                   <v-list-item-subtitle
-                    >ユーザーID：12345678</v-list-item-subtitle
+                    >yagishita0202@gmail.com</v-list-item-subtitle
                   >
                 </v-list-item-content>
               </v-list-item>
