@@ -338,7 +338,7 @@
               :max-width="isMobile ? '100%' : '1000'"
             >
               <v-card class="d-flex justify-center">
-                <img width="100%" height="600px" src="./assets/canda.png" alt="canda" />
+                <img width="100%" :height="isMobile ? 'auto' : '600px'" src="./assets/canda.png" alt="canda" />
               </v-card>
             </v-dialog>
           </v-col>
